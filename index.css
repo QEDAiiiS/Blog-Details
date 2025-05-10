@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eff2f6;
+}
+
+.main .live,
+.comments .container{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.main-img img{
+    border-radius: 5px;
+}
+.qoute{
+    background-color: #eff2f6;
+    border-radius: 5px;
+}
+.albert::before{
+    content: "— ";
+}
+.qoute-img img{
+    width: 55px;
+    height: 40px;
+}
+
+.friend-replay .friend-pic{
+    width: 10%;
+}
+
+.inputs input:hover,
+.inputs input:focus,
+.textarea textarea:hover,
+.textarea textarea:focus
+{
+    box-shadow: none;
+}
+
